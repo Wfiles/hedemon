@@ -70,9 +70,9 @@ The frontend should be accessible at **http://localhost:3000**.
 
 We are three Master's students in Data Science at EPFL, passionate about blockchain technologies and their real-world applications.
 
-- **Your Name 1** – GitHub: [@ymatthias-wyss](https://github.com/matthias-wyss)  
-- **Your Name 2** – GitHub: [@Wfiles](https://github.com/Wfiles)  
-- **Your Name 3** – GitHub: [@Quantador](https://github.com/Quantador)  
+- **Matthias Wyss** – GitHub: [@ymatthias-wyss](https://github.com/matthias-wyss)  
+- **William Jallot** – GitHub: [@Wfiles](https://github.com/Wfiles)  
+- **Yassine Wahidy** – GitHub: [@Quantador](https://github.com/Quantador)  
 
 ## License
 
