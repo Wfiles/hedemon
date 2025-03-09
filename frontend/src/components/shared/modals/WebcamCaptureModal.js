@@ -45,9 +45,6 @@ export default function WebcamCaptureModal({ onClose }) {
   return (
     <div className="modal modal-open">
       <div className="modal-box relative">
-        <button onClick={onClose} className="btn btn-sm btn-circle absolute right-2 top-2">
-          ✕
-        </button>
         <h3 className="text-lg font-bold mb-4">Scan New Card</h3>
         <div className="relative">
           <Webcam
