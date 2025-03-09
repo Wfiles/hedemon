@@ -106,6 +106,8 @@ const JWT = process.env.PINATA_JWT;
         console.log('Pokémon Number:', pokemonNumber);
 
         await fetchPokemonCardInfo(pokemonName, pokemonNumber);
+
+        return extractedData;
     } catch (error) {
         console.error("Error in OCR processing:", error);
         throw error;
@@ -207,6 +209,8 @@ async function fetchPokemonCardInfo(pokemonName, pokemonNumber) {
 
             // Créer un NFT avec les informations récupérées
             await createNFT(card);
+
+            return card;
 
         } else {
             console.log('Aucune carte trouvée pour ce Pokémon.');
@@ -342,6 +346,8 @@ async function createNFT(pokemonJson) {
         const nftMintRx = await nftMintSubmit.getReceipt(client);
 
         console.log("NFT Minted: " + nftMintRx.serials.toString());
+
+        return nftMintRx.serials.toString();
 
     } catch (error) {
         console.error(error);

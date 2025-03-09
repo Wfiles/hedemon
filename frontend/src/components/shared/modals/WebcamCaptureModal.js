@@ -32,6 +32,10 @@ export default function WebcamCaptureModal({ onClose }) {
             { imageData: imageSrc }
         ); 
         console.log("Response from backend:", res.data);
+        if (res.status === 200) {
+            console.log("Card added successfully");
+            window.location = "/my-nft-collection";
+        }
     } catch (error) {
         console.error("Error reaching backend:", error);
     }
