@@ -1,10 +1,15 @@
 # Hedemon - Verifiable Pokémon Card NFTs
 
-![Hedemon Illustartion 1](./hedemon-illustration-1.png)  
-
 Hedemon is a blockchain-powered platform that transforms Pokémon cards into **verifiable NFTs** using **Hedera Hashgraph**. By integrating **machine learning**, cryptographic hashing, and smart contracts, we ensure **authenticity, ownership, and privacy** for collectors.  
 
-Our solution is **scalable** and can be extended beyond Pokémon cards to **identity documents, diplomas, and other collectible assets**.  
+Our solution is **scalable** and can be extended beyond Pokémon cards to **identity documents, diplomas, and other collectible assets**.
+
+This project was built in 24 hours during the Privacy and Verifiability hackathon organized by the Blockchain Student Association at EPFL on March 8-9, 2025.
+
+## Illustrations
+
+![Hedemon Illustartion 0](./hedemon-illustration-0.png)  
+![Hedemon Illustartion 1](./hedemon-illustration-1.png) 
 
 ## Features  
 
@@ -17,7 +22,7 @@ Our solution is **scalable** and can be extended beyond Pokémon cards to **iden
 ## Tech Stack  
 
 - **Frontend**: React  
-- **Backend**: Node.js, Express  
+- **Backend**: Node.js 
 - **Blockchain**: Hedera Hashgraph (HTS, HCS, Smart Contracts)  
 - **Machine Learning**: Image recognition for Pokémon card authentication  
 - **APIs**:  
@@ -34,7 +39,7 @@ Ensure you have **Node.js** and **npm** installed.
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-repo/hedemon.git
+   git clone git@github.com:Wfiles/hedemon.git
    cd hedemon
    ```
 
