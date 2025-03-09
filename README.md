@@ -1,6 +1,6 @@
 # Hedemon - Verifiable Pokémon Card NFTs
 
-![Hedemon Illustartion 1](./assets/hedemon-illustration-1.png)  
+![Hedemon Illustartion 1](./hedemon-illustration-1.png)  
 
 Hedemon is a blockchain-powered platform that transforms Pokémon cards into **verifiable NFTs** using **Hedera Hashgraph**. By integrating **machine learning**, cryptographic hashing, and smart contracts, we ensure **authenticity, ownership, and privacy** for collectors.  
 
