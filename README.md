@@ -33,7 +33,7 @@ This project was built in 24 hours during the Privacy and Verifiability hackatho
 
 ### Prerequisites  
 
-Ensure you have **Node.js** and **npm** installed.  
+Ensure you have **Node.js** (v22) and **npm** installed.  
 
 ### Installation  
 
